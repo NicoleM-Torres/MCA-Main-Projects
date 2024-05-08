@@ -1,0 +1,15 @@
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\bin\Debug\net8.0\Tic-TacToe Project.exe
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\bin\Debug\net8.0\Tic-TacToe Project.deps.json
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\bin\Debug\net8.0\Tic-TacToe Project.runtimeconfig.json
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\bin\Debug\net8.0\Tic-TacToe Project.dll
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\bin\Debug\net8.0\Tic-TacToe Project.pdb
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\Tic-TacToe Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\Tic-TacToe Project.AssemblyInfoInputs.cache
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\Tic-TacToe Project.AssemblyInfo.cs
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\Tic-TacToe Project.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\Tic-TacToe Project.sourcelink.json
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\Tic-TacToe Project.dll
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\refint\Tic-TacToe Project.dll
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\Tic-TacToe Project.pdb
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\Tic-TacToe Project.genruntimeconfig.cache
+C:\Users\nicol\Documents\GitHub\TicTacToe\Tic-TacToe Project\obj\Debug\net8.0\ref\Tic-TacToe Project.dll

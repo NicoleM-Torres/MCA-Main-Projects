@@ -1,0 +1,15 @@
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\bin\Debug\net8.0\TicTacToe - Finished.exe
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\bin\Debug\net8.0\TicTacToe - Finished.deps.json
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\bin\Debug\net8.0\TicTacToe - Finished.runtimeconfig.json
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\bin\Debug\net8.0\TicTacToe - Finished.dll
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\bin\Debug\net8.0\TicTacToe - Finished.pdb
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\TicTacToe - Finished.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\TicTacToe - Finished.AssemblyInfoInputs.cache
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\TicTacToe - Finished.AssemblyInfo.cs
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\TicTacToe - Finished.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\TicTacToe - Finished.sourcelink.json
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\TicTacToe - Finished.dll
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\refint\TicTacToe - Finished.dll
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\TicTacToe - Finished.pdb
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\TicTacToe - Finished.genruntimeconfig.cache
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe - Finished\obj\Debug\net8.0\ref\TicTacToe - Finished.dll

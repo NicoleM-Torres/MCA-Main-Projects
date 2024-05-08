@@ -1,0 +1,15 @@
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\bin\Debug\net8.0\TicTacToe 2.exe
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\bin\Debug\net8.0\TicTacToe 2.deps.json
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\bin\Debug\net8.0\TicTacToe 2.runtimeconfig.json
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\bin\Debug\net8.0\TicTacToe 2.dll
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\bin\Debug\net8.0\TicTacToe 2.pdb
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\TicTacToe 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\TicTacToe 2.AssemblyInfoInputs.cache
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\TicTacToe 2.AssemblyInfo.cs
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\TicTacToe 2.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\TicTacToe 2.sourcelink.json
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\TicTacToe 2.dll
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\refint\TicTacToe 2.dll
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\TicTacToe 2.pdb
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\TicTacToe 2.genruntimeconfig.cache
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe 2\obj\Debug\net8.0\ref\TicTacToe 2.dll

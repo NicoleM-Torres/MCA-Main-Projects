@@ -1,0 +1,15 @@
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\bin\Debug\net8.0\TicTacToe Original.exe
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\bin\Debug\net8.0\TicTacToe Original.deps.json
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\bin\Debug\net8.0\TicTacToe Original.runtimeconfig.json
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\bin\Debug\net8.0\TicTacToe Original.dll
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\bin\Debug\net8.0\TicTacToe Original.pdb
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\TicTacToe Original.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\TicTacToe Original.AssemblyInfoInputs.cache
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\TicTacToe Original.AssemblyInfo.cs
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\TicTacToe Original.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\TicTacToe Original.sourcelink.json
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\TicTacToe Original.dll
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\refint\TicTacToe Original.dll
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\TicTacToe Original.pdb
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\TicTacToe Original.genruntimeconfig.cache
+C:\Users\nicol\Documents\GitHub\New-c--Project\TicTacToe Original\obj\Debug\net8.0\ref\TicTacToe Original.dll
