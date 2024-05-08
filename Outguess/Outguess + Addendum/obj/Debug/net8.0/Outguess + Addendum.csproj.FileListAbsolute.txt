@@ -1,0 +1,14 @@
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\bin\Debug\net8.0\Outguess + Addendum.exe
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\bin\Debug\net8.0\Outguess + Addendum.deps.json
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\bin\Debug\net8.0\Outguess + Addendum.runtimeconfig.json
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\bin\Debug\net8.0\Outguess + Addendum.dll
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\bin\Debug\net8.0\Outguess + Addendum.pdb
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\obj\Debug\net8.0\Outguess + Addendum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\obj\Debug\net8.0\Outguess + Addendum.AssemblyInfoInputs.cache
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\obj\Debug\net8.0\Outguess + Addendum.AssemblyInfo.cs
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\obj\Debug\net8.0\Outguess + Addendum.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\obj\Debug\net8.0\Outguess + Addendum.dll
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\obj\Debug\net8.0\refint\Outguess + Addendum.dll
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\obj\Debug\net8.0\Outguess + Addendum.pdb
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\obj\Debug\net8.0\Outguess + Addendum.genruntimeconfig.cache
+C:\Users\nicol\OneDrive\Escritorio\MCA Projects\Outguess + Addendum\obj\Debug\net8.0\ref\Outguess + Addendum.dll
