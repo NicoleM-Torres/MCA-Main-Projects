@@ -1,0 +1,15 @@
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\bin\Debug\net8.0\Kiosk Project 1.exe
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\bin\Debug\net8.0\Kiosk Project 1.deps.json
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\bin\Debug\net8.0\Kiosk Project 1.runtimeconfig.json
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\bin\Debug\net8.0\Kiosk Project 1.dll
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\bin\Debug\net8.0\Kiosk Project 1.pdb
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\Kiosk Project 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\Kiosk Project 1.AssemblyInfoInputs.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\Kiosk Project 1.AssemblyInfo.cs
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\Kiosk Project 1.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\Kiosk Project 1.sourcelink.json
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\Kiosk Project 1.dll
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\refint\Kiosk Project 1.dll
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\Kiosk Project 1.pdb
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\Kiosk Project 1.genruntimeconfig.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk Project 1\obj\Debug\net8.0\ref\Kiosk Project 1.dll
