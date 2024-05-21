@@ -84,7 +84,7 @@ namespace Kiosk_Project_1
                     index = 0;
                 }
             }
-            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("***************************************");
             Console.WriteLine("We have completed your payment");
 
         }
