@@ -9,7 +9,7 @@ namespace Kiosk_Project_1
     internal class CardPayCheck
     {
 
-        #region card pay
+        #region CardPay
         public static decimal CardPay(decimal totalCost)
         {
             //this tells
@@ -22,7 +22,7 @@ namespace Kiosk_Project_1
             decimal newTotal = 0;
             bool getCashBack = true;
 
-            bool numericCheck = true;
+            bool realNumCheck = true;
             decimal numberCheck = 0;
 
             //Validates if it is the actual length of a card
@@ -33,7 +33,7 @@ namespace Kiosk_Project_1
             } while (creditCard.Length != 16);
 
             //sees if its actually a vendor
-            string vendor = VendorCheck.ValidateVendor(creditCard);
+            string vendor = CCVendorCheck.ValidateVendor(creditCard);
             Kiosk.cardVendor = vendor;
 
             //if it is a good vendor it then checks to make sure its a valid card
@@ -155,12 +155,12 @@ namespace Kiosk_Project_1
                 string[] availability = MoneyReq.MoneyRequest(creditCard, totalCost);
                 string checkPayment = availability[1];
 
-                numericCheck = decimal.TryParse(checkPayment, out numberCheck);
+                realNumCheck = decimal.TryParse(checkPayment, out numberCheck);
 
-                numericCheck = true;
+                realNumCheck = true;
                 numberCheck = totalCost;
                 //check to see if the payment went through
-                if (numericCheck == true)
+                if (realNumCheck == true)
                 {
                     //if it went through congratulations
                     if (numberCheck == totalCost)
