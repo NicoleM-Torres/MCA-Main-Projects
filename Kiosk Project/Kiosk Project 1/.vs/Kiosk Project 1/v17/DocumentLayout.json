@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\kiosk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|solutionrelative:kiosk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\cashpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|solutionrelative:cashpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\kiosk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|solutionrelative:kiosk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\cardpaycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 182,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Kiosk.cs",
               "DocumentMoniker": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\Kiosk.cs",
               "RelativeDocumentMoniker": "Kiosk.cs",
               "ToolTip": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\Kiosk.cs",
               "RelativeToolTip": "Kiosk.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwBIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T19:25:53.909Z",
               "IsPinned": true,
@@ -68,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CashPayments.cs",
               "DocumentMoniker": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\CashPayments.cs",
               "RelativeDocumentMoniker": "CashPayments.cs",
               "ToolTip": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\CashPayments.cs",
               "RelativeToolTip": "CashPayments.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T15:18:56.017Z",
               "EditorCaption": ""
@@ -89,8 +89,7 @@
               "RelativeToolTip": "CardPayCheck.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAACAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T16:53:12.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T16:53:12.974Z"
             },
             {
               "$type": "Document",
@@ -102,8 +101,7 @@
               "RelativeToolTip": "RecieptLog.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T17:06:21.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T17:06:21.985Z"
             },
             {
               "$type": "Document",
@@ -115,8 +113,7 @@
               "RelativeToolTip": "CashChange.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAAF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T15:37:48.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T15:37:48.151Z"
             },
             {
               "$type": "Document",
@@ -128,8 +125,7 @@
               "RelativeToolTip": "MoneyReq.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T16:45:40.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T16:45:40.208Z"
             },
             {
               "$type": "Document",
@@ -141,8 +137,7 @@
               "RelativeToolTip": "CardCheckVal.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAgwA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T16:33:43.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T16:33:43.377Z"
             },
             {
               "$type": "Document",
@@ -154,8 +149,7 @@
               "RelativeToolTip": "Bank.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAAAEMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T16:38:09.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T16:38:09.08Z"
             },
             {
               "$type": "Document",
@@ -167,8 +161,7 @@
               "RelativeToolTip": "CashBackRequest.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAAAD4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T16:46:19.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T16:46:19.874Z"
             },
             {
               "$type": "Document",
@@ -180,8 +173,7 @@
               "RelativeToolTip": "VendorCheck.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwAwAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T16:44:13.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T16:44:13.697Z"
             }
           ]
         }
