@@ -13,7 +13,7 @@ namespace Kiosk_Project_1
         public static decimal CardPay(decimal totalCost)
         {
             //this tells
-            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("***************************************");
             Console.WriteLine("We only accept Visa, Mastercard, Discover, and American Express");
             string creditCard = "";
             bool isGood = true;
@@ -44,7 +44,7 @@ namespace Kiosk_Project_1
                 //if the card was invalid it then asks them if they want to enter a new one
                 if (isGood == false)
                 {
-                    Console.WriteLine("---------------------------------------");
+                    Console.WriteLine("***************************************");
                     do
                     {
                         Console.Write("Card was invalid, would you like to enter a new one?(y/n):");
@@ -58,7 +58,7 @@ namespace Kiosk_Project_1
             }
             else
             {
-                Console.WriteLine("---------------------------------------");
+                Console.WriteLine("***************************************");
                 do
                 {
                     Console.Write("Card was invalid, would you like to enter a new one?(y/n):");
@@ -73,7 +73,7 @@ namespace Kiosk_Project_1
                 //else you ask them if they wanna pay with cash instead
                 else
                 {
-                    Console.WriteLine("---------------------------------------");
+                    Console.WriteLine("***************************************");
                     do
                     {
                         Console.Write("Would you like to pay with cash instead (y/n):");
@@ -117,7 +117,7 @@ namespace Kiosk_Project_1
             }
             else
             {
-                Console.WriteLine("---------------------------------------");
+                Console.WriteLine("***************************************");
                 do
                 {
                     Console.Write("Do you want Cash back?(y/n)");
@@ -165,7 +165,7 @@ namespace Kiosk_Project_1
                     //if it went through congratulations
                     if (numberCheck == totalCost)
                     {
-                        Console.WriteLine("---------------------------------------");
+                        Console.WriteLine("***************************************");
                         if (getCashBack == true) Console.WriteLine("Congrats your payment went through and {0:C} was dispensed to you", cashBack);
                         else Console.WriteLine("Congrats your payment went through");
                         Kiosk.cardAmount = totalCost + cashBack;
@@ -175,7 +175,7 @@ namespace Kiosk_Project_1
                     }
                     else
                     {
-                        Console.WriteLine("---------------------------------------");
+                        Console.WriteLine("***************************************");
                         do
                         {
                             string toString = numberCheck.ToString();
@@ -220,7 +220,7 @@ namespace Kiosk_Project_1
                 }
                 else
                 {
-                    Console.WriteLine("---------------------------------------");
+                    Console.WriteLine("***************************************");
                     do
                     {
                         Console.Write("your card was declined because you didnt have enough in your bank would you like to try another card?");
@@ -235,7 +235,7 @@ namespace Kiosk_Project_1
                     //else it asks if they wanna pay with cash instead
                     else
                     {
-                        Console.WriteLine("---------------------------------------");
+                        Console.WriteLine("***************************************");
                         do
                         {
                             Console.Write("Would you like to pay with cash instead (y/n):");
