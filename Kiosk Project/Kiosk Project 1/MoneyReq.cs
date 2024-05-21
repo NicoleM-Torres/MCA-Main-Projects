@@ -30,7 +30,7 @@ namespace Kiosk_Project_1
                 }
                 else
                 {
-                    return new string[] { account_number, "declined" };
+                    return new string[] { account_number, "DECLINED" };
                 }
             }
         }
