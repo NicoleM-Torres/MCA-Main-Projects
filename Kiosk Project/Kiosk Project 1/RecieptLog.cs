@@ -20,6 +20,8 @@ namespace Kiosk_Project_1
             startInfo.FileName = "notepad.exe";
             startInfo.Arguments = arguments;
             Process.Start(startInfo);
+            
+
         }
         #endregion
     
