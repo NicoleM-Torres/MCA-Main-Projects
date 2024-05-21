@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Uncharted Waters Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb61f0e5a7637f9ae98e2121b21dcf45de7bff0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78f5eedbeeb18ff5ec6972f32abd596b1ae9a9e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Uncharted Waters Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Uncharted Waters Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
