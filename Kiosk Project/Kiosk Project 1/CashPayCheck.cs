@@ -15,7 +15,7 @@ namespace Kiosk_Project_1
             //call the function to get the total change
             decimal totalChange = CashChange.CalculateChange(totalCost);
 
-            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("***************************************");
             Console.WriteLine("Your total change is ${0}", totalChange);
 
             //call the function to check the bank
@@ -24,7 +24,7 @@ namespace Kiosk_Project_1
             //if the bank is ok then dispense change
             if (payGood == true) CashChange.dispenseChange(totalChange);
 
-            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("***************************************");
             Console.WriteLine("Thank you for using a NHS Kiosk");
 
         } //END CASHPAY METHOD
