@@ -47,7 +47,7 @@ namespace Kiosk_Project_1
                             count = 0;
                         }
                     }
-                    Console.WriteLine("---------------------------------------");
+                    Console.WriteLine("***************************************");
                     Console.WriteLine("Please find another way to pay");
 
                     //return false since the bank cant fufill the transaction
