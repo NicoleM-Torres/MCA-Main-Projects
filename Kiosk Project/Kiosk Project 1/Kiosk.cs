@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
+using System.Drawing;
 
 namespace Kiosk_Project_1
 {
@@ -91,7 +93,7 @@ namespace Kiosk_Project_1
                         }
                     }
                 } while (answer != -1);
-                Console.WriteLine("---------------------------------------");
+                Console.WriteLine("***************************************");
                 Console.WriteLine();
                 RecieptLog.transactionLogging();
                 transactionNum++;
@@ -108,7 +110,7 @@ namespace Kiosk_Project_1
             string userInput = " ";
             decimal totalcost = 0;
             int count = 1;
-            bool numericCheck = true;
+            bool realNumCheck = true;
             decimal numbercheck = 0;
             int counter = 0;
             bool checker = true;
@@ -118,12 +120,14 @@ namespace Kiosk_Project_1
             do
             {
                 //if what they enter is not a number this will tell them to re-enter it
-                if (numericCheck == false) Console.WriteLine("(Please enter a number)");
+                if (realNumCheck == false) Console.WriteLine("(Enter a valid amount.)");
 
                 //this Is where they input there number
+                
                 Console.Write("Please enter the cost for item {0}:   $", count);
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                
                 userInput = Console.ReadLine();
-
                 counter = 0;
 
                 for (int index = 0; index < userInput.Length; index++)
@@ -141,12 +145,12 @@ namespace Kiosk_Project_1
                 else checker = true;
 
                 //this checks that it is actually a number and if it is it will put into the numbercheck variable
-                numericCheck = decimal.TryParse(userInput, out numbercheck);
+                realNumCheck = decimal.TryParse(userInput, out numbercheck);
 
 
 
                 //if it is a number it and it is not a negative number then put it into the total cost
-                if (numericCheck == true && numbercheck > 0 && checker == true)
+                if (realNumCheck == true && numbercheck > 0 && checker == true)
                 {
                     count++;
                     totalcost += numbercheck;
