@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\UnchartedWaters\\Uncharted Waters Project\\Uncharted Waters Project.csproj": {}
+    "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Uncharted Waters Proj\\Uncharted Waters Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\UnchartedWaters\\Uncharted Waters Project\\Uncharted Waters Project.csproj": {
+    "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Uncharted Waters Proj\\Uncharted Waters Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\UnchartedWaters\\Uncharted Waters Project\\Uncharted Waters Project.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Uncharted Waters Proj\\Uncharted Waters Project.csproj",
         "projectName": "Uncharted Waters Project",
-        "projectPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\UnchartedWaters\\Uncharted Waters Project\\Uncharted Waters Project.csproj",
+        "projectPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Uncharted Waters Proj\\Uncharted Waters Project.csproj",
         "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\UnchartedWaters\\Uncharted Waters Project\\obj\\",
+        "outputPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Uncharted Waters Proj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
