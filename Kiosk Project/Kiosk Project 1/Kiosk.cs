@@ -7,8 +7,8 @@ namespace Kiosk_Project_1
     class Kiosk
     {
         #region FIELDS
-        public static int transactionNum = 1;//
-        public static string date = ""; //
+        public static int transactionNum = 1; //TRANSACTION # FOR RECEIPT
+        public static string date = ""; //DATE FOR RECEIPT
         public static decimal cashAmount = 0;//
         public static string cardVendor = "no card vendor";//
         public static decimal cardAmount = 0;//
