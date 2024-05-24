@@ -1,0 +1,15 @@
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\Kiosk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\Kiosk.AssemblyInfoInputs.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\Kiosk.AssemblyInfo.cs
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\Kiosk.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\Kiosk.sourcelink.json
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\bin\Debug\net8.0\Kiosk.exe
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\bin\Debug\net8.0\Kiosk.deps.json
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\bin\Debug\net8.0\Kiosk.runtimeconfig.json
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\bin\Debug\net8.0\Kiosk.dll
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\bin\Debug\net8.0\Kiosk.pdb
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\Kiosk.dll
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\refint\Kiosk.dll
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\Kiosk.pdb
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\Kiosk.genruntimeconfig.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\Kiosk\obj\Debug\net8.0\ref\Kiosk.dll
