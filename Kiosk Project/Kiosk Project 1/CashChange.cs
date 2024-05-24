@@ -25,14 +25,14 @@ namespace Kiosk_Project_1
 
             do
             {
-                //if what they enter is not a number this will tell them to re-enter it
+                //IF USERINPUT IS NOT A VALID NUMBER THEY WILL BE PROMPTER TO RE-ENTER
                 if (numericCheck == false) Console.WriteLine("(Please enter a number)");
 
-                //this Is where they input there number
+                //USERINPUT PAYMENT #'S (DOLLAR BILL VALUE -- 1,2,5,10,20,50,100)
                 Console.Write("Please enter the payment {0}:   $", count);
                 userInput = Console.ReadLine();
 
-                //this checks that it is actually a number and if it is it will put into the numbercheck variable
+                //CHECKS IF USERINPUR IS A #, IF IT IS A VALID #, IT WILL BE STORED TO 'numberCheck' VARIABLE
                 numericCheck = decimal.TryParse(userInput, out numbercheck);
 
 
