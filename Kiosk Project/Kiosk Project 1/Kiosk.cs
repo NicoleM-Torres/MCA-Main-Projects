@@ -54,7 +54,7 @@ namespace Kiosk_Project_1
                     Console.WriteLine("***************************************");
                     customerChoice = Prompt("Will you be paying with Cash or Card?");
                     customerChoice = customerChoice.ToLower();
-                    if (customerChoice != "cash" && customerChoice != "card") Console.WriteLine("Please enter the word cash or card");
+                    if (customerChoice != "cash" && customerChoice != "card") Console.WriteLine("Enter the word cash or card to choose payment method.");
                 } while (customerChoice != "cash" && customerChoice != "card");
 
 
@@ -81,7 +81,7 @@ namespace Kiosk_Project_1
                         }
                         else if (answer == -1)
                         {
-                            Console.WriteLine("Thank you for choosing a NHS Self-Help kiosk, your reciept will display in a few seconds.");
+                            Console.WriteLine("Thank you for choosing a NHS Self-Help Kiosk, your reciept will display in a few seconds.");
                         }
                         else if (answer < -3)
                         {
@@ -106,24 +106,24 @@ namespace Kiosk_Project_1
         static decimal InputValidation
             ()
         {
-            #region variables
+            #region Input Validation Variables
+
             string userInput = " ";
-            decimal totalcost = 0;
+            decimal totalCost = 0;
             int count = 1;
             bool realNumCheck = true;
-            decimal numbercheck = 0;
+            decimal numberCheck = 0;
             int counter = 0;
             bool checker = true;
             #endregion
 
-            //start a loop to input your items
+            //INPUT ITEMS $$
             do
             {
-                //if what they enter is not a number this will tell them to re-enter it
+                //IF THEY ENTER ANYTHING OTHER THAN A NUMBER, THE PROGRAM WILL REQUEST THEY ENTER A 'VALID AMOUNT'
                 if (realNumCheck == false) Console.WriteLine("(Enter a valid amount.)");
 
-                //this Is where they input there number
-                
+                //REQUEST USER INPUT FOR COST ITEM               
                 Console.Write("Please enter the cost for item {0}:   $", count);
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 
@@ -144,27 +144,26 @@ namespace Kiosk_Project_1
                 if (counter > 2) checker = false;
                 else checker = true;
 
-                //this checks that it is actually a number and if it is it will put into the numbercheck variable
-                realNumCheck = decimal.TryParse(userInput, out numbercheck);
+                //WILL CHECK IF THE USERINPUT IS A VALID NUMBER, IF IT IS, IT WILL BE ASSIGNED TO THE 'NUMBERCHECK' VARIABLE
+                realNumCheck = decimal.TryParse(userInput, out numberCheck);
 
 
-
-                //if it is a number it and it is not a negative number then put it into the total cost
-                if (realNumCheck == true && numbercheck > 0 && checker == true)
+                //CHECK NUMBER TO ENSURE IS NOT A NEGATIVE VALUE, IF IT'S A VALID NUMBER THE AMOUNT WILL BE ADDED TO THE VARIABLE 'TOTALCOST'
+                if (realNumCheck == true && numberCheck > 0 && checker == true)
                 {
                     count++;
-                    totalcost += numbercheck;
+                    totalCost += numberCheck;
                 }
 
-                // if it has more than two decimal places then it tells them to re-enter a number
+                //IF THE PRICE OF ITEM HAS TWO OR MORE DECIMAL PLACES IT WILL PROMPT USER TO RE-ENTER THE PRICE
                 else if (checker == false) Console.WriteLine("(You cant have more than two decimal places)");
 
-                //if it is not a number above 0 it will tell the user to re-enter a number
-                else if (numbercheck < 0) Console.WriteLine("(Please enter a number above 0)");
+                //IF THE NUMBER IS NOT ABOVE 0, THE USER WILL BE P[ROMPTED TO RE-ENTER
+                else if (numberCheck < 0) Console.WriteLine("(Please enter a number above 0)");
 
             } while (userInput != "");
 
-            return totalcost;
+            return totalCost;
         }
         #endregion  
 
