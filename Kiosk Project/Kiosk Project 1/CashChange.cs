@@ -29,14 +29,14 @@ namespace Kiosk_Project_1
                 if (numericCheck == false) Console.WriteLine("(Please enter a number)");
 
                 //USERINPUT PAYMENT #'S (DOLLAR BILL VALUE -- 1,2,5,10,20,50,100)
-                Console.Write("Please enter the payment {0}:   $", count);
+                Console.Write("Payment {0}:   $", count);
                 userInput = Console.ReadLine();
 
                 //CHECKS IF USERINPUR IS A #, IF IT IS A VALID #, IT WILL BE STORED TO 'numberCheck' VARIABLE
                 numericCheck = decimal.TryParse(userInput, out numbercheck);
 
 
-                //if it is a number it and it is not a negative number then put it into the change left and fill the bank
+                //IF IT'S A VALID #, IT IS ADDED TO THE CHANGE AMOUNT AND 
                 if (numericCheck == true && numbercheck > 0)
                 {
                     billNumber = CashPayCheck.CheckBill(numbercheck);
@@ -48,23 +48,24 @@ namespace Kiosk_Project_1
                         changeLeft = totalCost - totalInput;
                         Kiosk.bank[billNumber]++;
                         Kiosk.userMoney[billNumber]++;
-                        if (totalInput < totalCost) Console.WriteLine("You still owe ${0}", changeLeft);
+                        if (totalInput < totalCost) Console.WriteLine("Remaining ${0}", changeLeft);
                     }
-                    else if (billNumber >= 12) Console.WriteLine("Please enter a valid bill");
+                    else if (billNumber >= 12) Console.WriteLine("Please enter a valid dollar bill");
                 }
 
-                //if it is not a number above 0 it will tell the user to re-enter a number
-                else if (numbercheck < 0) Console.WriteLine("(Please enter a number above 0)");
+                //IF NOT A # ABOVE 0, IT WILL REQUIRE USERINPUT TO BE RE-ENTERED
+                else if (numbercheck < 0) Console.WriteLine("(Enter a number above 0)");
 
 
 
             } while (totalInput < totalCost);
 
             //this puts the changeLeft into the totalLeft and checks to see if it is a negative number
+            //ADDS 'changeLeft' VALUES INTO 'totalLeft' VARIABLE AND VERIFIES IF THE #'S ARE VALID (NOT NEGATIVE OR < 0)
             if (changeLeft < 0) totalChange = changeLeft * -1;
             else totalChange = changeLeft;
 
-            //return the totalchange
+            //RETURN THE 'totalChange' VALUES
             return totalChange;
         }
 #endregion
@@ -72,20 +73,20 @@ namespace Kiosk_Project_1
         #region Dispense change
         public static void dispenseChange(decimal totalChange)
         {
-            //start dispencing the change to the user
+            //DISPENSE CHANGE TO USER
             for (int index = 0; totalChange > 0; index++)
             {
                 if (totalChange >= Kiosk.moneyValues[index] && Kiosk.bank[index] > 0)
                 {
                     Kiosk.bank[index]--;
                     totalChange -= Kiosk.moneyValues[index];
-                    Console.WriteLine("We dispensed {0:C} change", Kiosk.moneyValues[index]);
+                    Console.WriteLine("We dispensed {0:C} change.", Kiosk.moneyValues[index]);
                     Kiosk.changeDue += Kiosk.moneyValues[index];
                     index = 0;
                 }
             }
             Console.WriteLine("***************************************");
-            Console.WriteLine("We have completed your payment");
+            Console.WriteLine("We have processed your payment.");
 
         }
         #endregion
