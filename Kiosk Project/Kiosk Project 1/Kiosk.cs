@@ -45,7 +45,7 @@ namespace Kiosk_Project_1
                 decimal totalCost = InputValidation();
 
                 Console.WriteLine("***************************************");
-                Console.WriteLine("The total cost of the items is {0}", totalCost);
+                Console.WriteLine("Your purchase total is {0}", totalCost);
                 Console.WriteLine("***************************************");
 
                 //ask if the user would like to use cash or card
@@ -124,7 +124,7 @@ namespace Kiosk_Project_1
                 if (realNumCheck == false) Console.WriteLine("(Enter a valid amount.)");
 
                 //REQUEST USER INPUT FOR COST ITEM               
-                Console.Write("Please enter the cost for item {0}:   $", count);
+                Console.Write("Item {0} cost:   $", count);
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 
                 userInput = Console.ReadLine();
