@@ -11,13 +11,13 @@ namespace Kiosk_Project_1
     internal class RecieptLog
     {
 
-        #region Transaction LogIn
+        #region Receipt
         public static void transactionLogging()
         {
             string vendor = Kiosk.cardVendor.Replace(' ', '`');
             string arguments = Kiosk.transactionNum.ToString() + "," + Kiosk.date + ",$" + Kiosk.cashAmount.ToString() + "," + vendor + ",$" + Kiosk.cardAmount.ToString() + ",$" + Kiosk.changeDue.ToString();
             ProcessStartInfo startInfo = new ProcessStartInfo();
-            startInfo.FileName = "notepad.exe";
+            startInfo.FileName = "logging.exe";
             startInfo.Arguments = arguments;
             Process.Start(startInfo);
             
