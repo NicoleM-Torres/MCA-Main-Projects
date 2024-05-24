@@ -34,7 +34,7 @@ namespace Kiosk_Project_1
                 }
                 else if (moneyowed > 0 && array[index] == 0)
                 {
-                    Console.WriteLine("This machine does not have enough\nmoney to despense change so you will be refunded");
+                    Console.WriteLine("The Kiosk does not have enough cash to dispense your change. You will be refunded. ");
 
                     //start dispensing the money back to the user
                     for (int count = 0; count < Kiosk.userMoney.Length; count++)
@@ -48,7 +48,7 @@ namespace Kiosk_Project_1
                         }
                     }
                     Console.WriteLine("***************************************");
-                    Console.WriteLine("Please find another way to pay");
+                    Console.WriteLine("Please use another payment method.");
 
                     //return false since the bank cant fufill the transaction
                     return false;
