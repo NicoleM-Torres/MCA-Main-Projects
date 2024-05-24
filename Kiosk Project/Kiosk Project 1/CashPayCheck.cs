@@ -12,16 +12,16 @@ namespace Kiosk_Project_1
         public static void CashPay(decimal totalCost)
         {
             CashChange.CalculateChange(totalCost);
-            //call the function to get the total change
+            //CALLS THE METHOD TO GET CHANGE AMOUNT
             decimal totalChange = CashChange.CalculateChange(totalCost);
 
             Console.WriteLine("***************************************");
             Console.WriteLine("Your total change is ${0}", totalChange);
 
-            //call the function to check the bank
+            //CALLS METHOD TO CHECK KIOSK BANK
             bool payGood = Bank.CheckBankCard(totalChange);
 
-            //if the bank is ok then dispense change
+            //CHECKS IF KIOSK VAULT HAS ENOUGH $$, IF IT IS, IT WILL DISPENSE CHANGE
             if (payGood == true) CashChange.dispenseChange(totalChange);
 
             Console.WriteLine("***************************************");
