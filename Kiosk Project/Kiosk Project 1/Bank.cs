@@ -63,32 +63,32 @@ namespace Kiosk_Project_1
         #region checkBankCard
         public static bool CheckBankCard(decimal totalChange /*,bool Card*/)
         {
-            //create a replica bank to check if you have money in the bank 
+            //CREATES A BANK AND CHECKS MONEY VALUE INSIDE IT
             decimal moneyowed = totalChange;
             int[] array = new int[12];
 
-            //fill the replica bank
+            //FILLS THE CREATED BANK WITH MONETARY VALUE
             for (int index = 0; index < Kiosk.bank.Length; index++)
             {
                 array[index] = Kiosk.bank[index];
-            }
+            } //END FOR
 
-            //Start checking to see if the bank has enough to fufill the transaction
+            //STARTS CHECKING IF BANK HAS ENOUGH $$ TO FULFILL TRANSACTION
             for (int index = 0; moneyowed > 0; index++)
             {
+                //IF BANK DOES NOT HAVE ENOUGH $$$ IT WILL ALERT THE USER AND DISPENSE $$% BACK
                 if (moneyowed >= Kiosk.moneyValues[index] && array[index] > 0)
                 {
                     array[index]--;
                     moneyowed -= Kiosk.moneyValues[index];
                     index = 0;
 
-                    //if the bank doesn't have enough money it will tell you and dispense their money back
-                }
+                } //END IF
                 else if (moneyowed > 0 && array[index] == 0)
                 {
 
 
-                    //start dispensing the money back to the user
+                    //STARTS DISPENSING MONEY BACK TO THE USER
                     for (int count = 0; count < Kiosk.userMoney.Length; count++)
                     {
                         if (Kiosk.userMoney[count] > 0)
@@ -99,11 +99,11 @@ namespace Kiosk_Project_1
                             count = 0;
                         }
                     }
-                    //return false since the bank cant fufill the transaction
+                    //RETURN 'FALSE' SINCE BANK CAN'T FULFILL TRANSACTION
                     return false;
                 }
             }
-            //return true if it could fufill the transaction
+            //RETURN TRUE IF IT CAN COMPLETE PAYMENT
             return true;
         }
         #endregion
@@ -132,15 +132,15 @@ namespace Kiosk_Project_1
                     if (!declined)
                     {
                         return new string[] { account_number, (amount / rnd.Next(2, 6)).ToString() };
-                    }
+                    }//END IF
                     else
                     {
                         return new string[] { account_number, "DECLINED" };
-                    }
-                }
-            }
+                    } //END ELSE
+                }//END ELSE
+            } //END MONEY REQUEST METHOD
+        } //END MONEYREQ CLASS
 
-        }
         #endregion
 
 } //END NAMESPACE
