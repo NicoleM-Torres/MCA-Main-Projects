@@ -108,5 +108,39 @@ namespace Kiosk_Project_1
         }
         #endregion
 
-    }
-}
+
+    } //END CLASS BANK
+
+        #region MoneyRequest
+        internal class MoneyReq
+        {
+            public static string[] MoneyRequest(string account_number, decimal amount)
+            {
+
+                Random rnd = new Random();
+                //50% chance that transaction passes or fails
+                bool pass = rnd.Next(100) < 50;
+                //50% chance that a failed transaction is declined
+                bool declined = rnd.Next(100) < 50;
+
+                if (pass)
+                {
+                    return new string[] { account_number, amount.ToString() };
+                }
+                else
+                {
+                    if (!declined)
+                    {
+                        return new string[] { account_number, (amount / rnd.Next(2, 6)).ToString() };
+                    }
+                    else
+                    {
+                        return new string[] { account_number, "DECLINED" };
+                    }
+                }
+            }
+
+        }
+        #endregion
+
+} //END NAMESPACE
