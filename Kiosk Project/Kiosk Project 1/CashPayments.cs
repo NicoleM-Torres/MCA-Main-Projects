@@ -49,9 +49,11 @@ namespace Kiosk_Project_1
         }
         #endregion
 
-        internal class CashChange
-        {
-            #region CalculateChange
+
+    }//END CLASS CASHPAYMENTS
+    internal class CashChange
+    {
+        #region CalculateChange
             public static decimal CalculateChange(decimal totalCost)
             {
 
@@ -113,7 +115,7 @@ namespace Kiosk_Project_1
             }
             #endregion
 
-            #region Dispense change
+        #region Dispense change
             public static void dispenseChange(decimal totalChange)
             {
                 //DISPENSE CHANGE TO USER
@@ -134,7 +136,5 @@ namespace Kiosk_Project_1
             }
             #endregion
 
-        } //END CASHCHANGE CLASS
-
-    }//END CLASS CASHPAYMENTS
+    } //END CASHCHANGE CLASS
 }//END NAMESPACE
