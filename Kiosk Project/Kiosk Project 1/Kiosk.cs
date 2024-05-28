@@ -31,8 +31,8 @@ namespace Kiosk_Project_1
                 bank[index] = 5;
             }
 
-            DateTime dateTime = DateTime.Now; // Get the current date and time
-            date = dateTime.ToString("MMM-dd-yyyy,HH:mm"); // Format the date and time as "MMM-dd-yyyy,HH:mm"
+            DateTime dateTime = DateTime.Now; // GETS THE CURRENT DATE AND TIME
+            date = dateTime.ToString("MMM-dd-yyyy,HH:mm"); // DATE & TIME FORMAT -- "MMM-dd-yyyy,HH:mm"
 
 
             while (true)
