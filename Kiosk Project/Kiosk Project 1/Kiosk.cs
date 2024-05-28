@@ -10,7 +10,7 @@ namespace Kiosk_Project_1
         public static int transactionNum = 1; //TRANSACTION # FOR RECEIPT
         public static string date = ""; //DATE FOR RECEIPT
         public static decimal cashAmount = 0;//
-        public static string cardVendor = "no card vendor";//
+        public static string cardVendor = "*NO CARD VENDOR*";//
         public static decimal cardAmount = 0;//
         public static decimal changeDue = 0;
         public static int[] bank = new int[12];
@@ -20,18 +20,20 @@ namespace Kiosk_Project_1
         static void Main(string[] args)
         {
             
-            #region CUSTOMER QUESTIONS
+        #region CUSTOMER QUESTIONS
 
             string customerChoice = "";
             decimal answer = 0;
 
+            // Loop through each element in the 'bank' array and set its value to 5
             for (int index = 0; index < bank.Length; index++)
             {
                 bank[index] = 5;
             }
 
-            DateTime dateTime = DateTime.Now;
-            date = dateTime.ToString("MMM-dd-yyyy,HH:mm");
+            DateTime dateTime = DateTime.Now; // Get the current date and time
+            date = dateTime.ToString("MMM-dd-yyyy,HH:mm"); // Format the date and time as "MMM-dd-yyyy,HH:mm"
+
 
             while (true)
             {
@@ -61,7 +63,7 @@ namespace Kiosk_Project_1
                 //if the user choose cash then the program goes here
                 if (customerChoice == "cash")
                 {
-                    CashPayCheck.CashPay(totalCost);
+                    CashPayments.CashPay(totalCost); // Call the CashPay method from CashPayments class with totalCost as parameter
                     answer = -1;
                 }
 
@@ -70,14 +72,14 @@ namespace Kiosk_Project_1
                     //if they choose card the code brings them here
                     if (customerChoice == "card")
                     {
-                        answer = CardPayCheck.CardPay(totalCost);
+                        answer = CardPayments.CardPay(totalCost);
                         if (answer == -3)
                         {
-                            answer = CardPayCheck.CardPay(totalCost);
+                            answer = CardPayments.CardPay(totalCost);
                         }
                         else if (answer == -2)
                         {
-                            CashPayCheck.CashPay(totalCost);
+                            CashPayments.CashPay(totalCost);
                         }
                         else if (answer == -1)
                         {
@@ -85,11 +87,11 @@ namespace Kiosk_Project_1
                         }
                         else if (answer < -3)
                         {
-                            answer = CardPayCheck.CardPay(answer * -1);
+                            answer = CardPayments.CardPay(answer * -1);
                         }
                         else if (answer > 0)
                         {
-                            CashPayCheck.CashPay(answer);
+                            CashPayments.CashPay(answer);
                         }
                     }
                 } while (answer != -1);
@@ -99,10 +101,9 @@ namespace Kiosk_Project_1
                 transactionNum++;
             }
         }
-            #endregion
+            #endregion       
         
-        
-    #region Input Validation
+        #region Input Validation
         static decimal InputValidation
             ()
         {
@@ -165,11 +166,30 @@ namespace Kiosk_Project_1
 
             return totalCost;
         }
-        #endregion  
+        #endregion
+
+        #region Receipt
+        internal class RecieptLog
+        {
+
+            public static void transactionLogging()
+            {
+                string vendor = Kiosk.cardVendor.Replace(' ', '`');
+                string arguments = Kiosk.transactionNum.ToString() + "," + Kiosk.date + ",$" + Kiosk.cashAmount.ToString() + "," + vendor + ",$" + Kiosk.cardAmount.ToString() + ",$" + Kiosk.changeDue.ToString();
+                ProcessStartInfo startInfo = new ProcessStartInfo();
+                startInfo.FileName = "logging.exe";
+                startInfo.Arguments = arguments;
+                Process.Start(startInfo);
 
 
-    #region PROMPT FUNCTIONS
-            static string Prompt(string dataRequest)
+            } //END TRANSACTION LOG METHOD
+
+
+        } //END RECIEPT LOG CLASS
+        #endregion
+
+        #region PROMPT FUNCTIONS
+        static string Prompt(string dataRequest)
         {
             //CREATE VARIABLE TO STORE THE USER RESPONSE
             string userResponse = "";
