@@ -29,7 +29,7 @@ namespace Kiosk_Project_1
             do
             {
                 creditCard = Prompt("Enter a card number:");
-                if (creditCard.Length !=16 )
+                if (creditCard.Length != 16)
                     Console.WriteLine("(Please enter a valid card number)");
             } while (creditCard.Length !=16);
 
@@ -362,26 +362,26 @@ namespace Kiosk_Project_1
     #region Check CC -- Mastercard-Visa-AE- Discover
     internal class CCVendorCheck
     {
+        //IDENTIFYING THE CARD VENDOR
         public static string ValidateVendor(string creditCard)
         {
-            //IDENTIFYING THE CARD VENDOR
-            //VISA
-            if (creditCard[0] == '4') return "Visa";
-            //MASTERCARD
-            else if (creditCard[0] == '5' && creditCard[1] == '1') return "Mastercard";
-            else if (creditCard[0] == '5' && creditCard[1] == '2') return "Mastercard";
-            else if (creditCard[0] == '5' && creditCard[1] == '3') return "Mastercard";
-            else if (creditCard[0] == '5' && creditCard[1] == '4') return "Mastercard";
-            else if (creditCard[0] == '5' && creditCard[1] == '5') return "Mastercard";
-            //DISCOVER
-            else if (creditCard[0] == '6' && creditCard[1] == '0' && creditCard[2] == '1' && creditCard[3] == '1') return "Discover";
-            else if (creditCard[0] == '6' && creditCard[1] == '4' && creditCard[2] == '4') return "Discover";
-            else if (creditCard[0] == '6' && creditCard[1] == '5') return "Discover";
-            //AMERICAN EXPRESS
-            else if (creditCard[0] == '3' && creditCard[1] == '4') return "American Express";
-            else if (creditCard[0] == '3' && creditCard[1] == '7') return "American Express";
+            //VISA CC
+                if (creditCard[0] == '4') return "Visa";
+            //MASTERCARD CC
+                else if (creditCard[0] == '5' && creditCard[1] == '1') return "Mastercard";
+                else if (creditCard[0] == '5' && creditCard[1] == '2') return "Mastercard";
+                else if (creditCard[0] == '5' && creditCard[1] == '3') return "Mastercard";
+                else if (creditCard[0] == '5' && creditCard[1] == '4') return "Mastercard";
+                else if (creditCard[0] == '5' && creditCard[1] == '5') return "Mastercard";
+            //DISCOVER CC
+                else if (creditCard[0] == '6' && creditCard[1] == '0' && creditCard[2] == '1' && creditCard[3] == '1') return "Discover";
+                else if (creditCard[0] == '6' && creditCard[1] == '4' && creditCard[2] == '4') return "Discover";
+                else if (creditCard[0] == '6' && creditCard[1] == '5') return "Discover";
+            //AMERICAN EXPRESS CC
+                else if (creditCard[0] == '3' && creditCard[1] == '4') return "American Express";
+                else if (creditCard[0] == '3' && creditCard[1] == '7') return "American Express";
             //CARD NOT VALID
-            else return "CARD NOT VALID";
+                else return "CARD NOT VALID";
         } //END VALIDATE CC METHOD
     }//END CC VENDOR CLASS  
     #endregion
