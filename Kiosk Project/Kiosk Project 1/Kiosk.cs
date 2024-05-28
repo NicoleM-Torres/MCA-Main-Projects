@@ -25,7 +25,7 @@ namespace Kiosk_Project_1
             string customerChoice = "";
             decimal answer = 0;
 
-            // Loop through each element in the 'bank' array and set its value to 5
+            //LOOPS THROUGH ELEMENTS IN 'BANK' ARRAY AND SETS VALUE TO 5
             for (int index = 0; index < bank.Length; index++)
             {
                 bank[index] = 5;
@@ -43,14 +43,14 @@ namespace Kiosk_Project_1
                 Console.WriteLine("Press enter in a empty space when you are finishes scanning the products)");
                 Console.WriteLine("***************************************");
 
-                //call the function to get the total cost
+                //CALL THE METHOD TO GET TOTAL COST
                 decimal totalCost = InputValidation();
 
                 Console.WriteLine("***************************************");
                 Console.WriteLine("Your purchase total is {0}", totalCost);
                 Console.WriteLine("***************************************");
 
-                //ask if the user would like to use cash or card
+                //ASKS USER IF THEY WOULD LIKE TO PAY WITH CASH OR CARD
                 do
                 {
                     Console.WriteLine("***************************************");
@@ -60,7 +60,7 @@ namespace Kiosk_Project_1
                 } while (customerChoice != "cash" && customerChoice != "card");
 
 
-                //if the user choose cash then the program goes here
+                //IF THE USER CHOOSES CASH --
                 if (customerChoice == "cash")
                 {
                     CashPayments.CashPay(totalCost); // Call the CashPay method from CashPayments class with totalCost as parameter
@@ -69,7 +69,7 @@ namespace Kiosk_Project_1
 
                 do
                 {
-                    //if they choose card the code brings them here
+                    //IF USER CHOOSES CARD --
                     if (customerChoice == "card")
                     {
                         answer = CardPayments.CardPay(totalCost);
