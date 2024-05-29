@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\kiosk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|solutionrelative:kiosk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\cardpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|solutionrelative:cardpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|solutionrelative:bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\cardpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|solutionrelative:cardpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\cashpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|solutionrelative:cashpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|c:\\users\\nicol\\documents\\github\\mca-main-projects\\kiosk project\\kiosk project 1\\kiosk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E60D447-3649-4BA8-994A-920F122DE9B0}|Kiosk Project 1.csproj|solutionrelative:kiosk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,44 +26,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 182,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Kiosk.cs",
               "DocumentMoniker": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\Kiosk.cs",
               "RelativeDocumentMoniker": "Kiosk.cs",
               "ToolTip": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\Kiosk.cs",
               "RelativeToolTip": "Kiosk.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwCUAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T19:25:53.909Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CashPayments.cs",
               "DocumentMoniker": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\CashPayments.cs",
               "RelativeDocumentMoniker": "CashPayments.cs",
               "ToolTip": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\CashPayments.cs",
               "RelativeToolTip": "CashPayments.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T15:18:56.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T15:18:56.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CardPayments.cs",
               "DocumentMoniker": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\CardPayments.cs",
               "RelativeDocumentMoniker": "CardPayments.cs",
               "ToolTip": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\CardPayments.cs",
               "RelativeToolTip": "CardPayments.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T16:53:12.974Z",
               "EditorCaption": ""
@@ -76,7 +74,7 @@
               "RelativeDocumentMoniker": "Bank.cs",
               "ToolTip": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Project 1\\Bank.cs",
               "RelativeToolTip": "Bank.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAHgAAAAmAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAqwI8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T16:38:09.08Z",
               "EditorCaption": ""
