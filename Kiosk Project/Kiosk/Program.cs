@@ -49,7 +49,7 @@ namespace Kiosk
                 do
                 {
                     Console.WriteLine("---------------------------------------");
-                    userChoice = prompt("Will you be using Cash or Card");
+                    userChoice = Prompt("Will you be using Cash or Card");
                     userChoice = userChoice.ToLower();
                     if (userChoice != "cash" && userChoice != "card") Console.WriteLine("Please enter the word cash or card");
                 } while (userChoice != "cash" && userChoice != "card");
@@ -97,13 +97,13 @@ namespace Kiosk
             }
         }
         #region helper functions
-        static string prompt(string text)
+        static string Prompt(string text)
         {
             Console.Write(text + " ");
             return Console.ReadLine();
         }
 
-        /*static int PromptInt(string text)
+        static int PromptInt(string text)
         {
             Console.Write(text + " ");
             return int.Parse(Console.ReadLine());
@@ -113,7 +113,7 @@ namespace Kiosk
         {
             Console.Write(text + " ");
             return double.Parse(Console.ReadLine());
-        }*/
+        }
         #endregion
 
         #region Item interage
@@ -220,7 +220,7 @@ namespace Kiosk
             //Validates if it is the actual length of a card
             do
             {
-                creditCard = prompt("Please enter a card number");
+                creditCard = Prompt("Please enter a card number");
                 if (creditCard.Length != 16) Console.WriteLine("(Please enter a valid card number)");
             } while (creditCard.Length != 16);
 
@@ -805,47 +805,6 @@ namespace Kiosk
         }
         #endregion
 
-        #region PROMPT FUNCTIONS
-        static string Prompt(string dataRequest)
-        {
-            //CREATE VARIABLE TO STORE THE USER RESPONSE
-            string userResponse = "";
-
-            //WRITE THE REQUEST TO THE SCREEN FOR USER TO READ
-            Console.WriteLine(dataRequest);
-
-            //RECEIVE BACK USER RESPONSE AND STORE INTO VARIABLE
-            userResponse = Console.ReadLine();
-
-            //RETURN THE REQUESTED DATA BACK TO THE CALLING CODE-BLOCK
-            return userResponse;
-        }//end function
-
-        static int PromptInt(string dataRequest)
-        {
-            //CREATE VARIABLE TO STORE THE USER RESPONSE
-            int userResponse = 0;
-
-            //REQUEST AND RECEIVE BACK USER RESPONSE AND STORE INTO VARIABLE
-            userResponse = int.Parse(Prompt(dataRequest));
-
-            //RETURN THE REQUESTED DATA BACK TO THE CALLING CODE-BLOCK
-            return userResponse;
-        }//end function
-
-        static double PromptDouble(string dataRequest)
-        {
-            //CREATE VARIABLE TO STORE THE USER RESPONSE
-            double userResponse = 0;
-
-            //REQUEST AND RECEIVE BACK USER RESPONSE AND STORE INTO VARIABLE
-            userResponse = double.Parse(Prompt(dataRequest));
-
-            //RETURN THE REQUESTED DATA BACK TO THE CALLING CODE-BLOCK
-            return userResponse;
-        }//end function
-
-        #endregion
 
     } //END CLASS
 }//END NAMESPACE
