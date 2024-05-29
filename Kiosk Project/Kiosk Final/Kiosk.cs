@@ -174,7 +174,7 @@ namespace Kiosk_Final
                 string vendor = Kiosk.cardVendor.Replace(' ', '`');
                 string arguments = Kiosk.transactionNum.ToString() + "," + Kiosk.date + ",$" + Kiosk.cashAmount.ToString() + "," + vendor + ",$" + Kiosk.cardAmount.ToString() + ",$" + Kiosk.changeDue.ToString();
                 ProcessStartInfo startInfo = new ProcessStartInfo();
-                startInfo.FileName = "Kiosk Final.exe";
+                startInfo.FileName = "notepad.exe";
                 startInfo.Arguments = arguments;
                 Process.Start(startInfo);
 
