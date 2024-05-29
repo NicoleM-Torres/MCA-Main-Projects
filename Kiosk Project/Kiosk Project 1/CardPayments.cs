@@ -25,20 +25,20 @@ namespace Kiosk_Project_1
             bool bankHasMoney = true;
             decimal numberCheck = 0;
 
-            //PROMPTS USER TO ENTER CC NUMBER -- IF THE NUMBER IS NOT 
+            //PROMPTS USER TO ENTER CC NUMBER -- IF THE NUMBER IS NOT 15-16 DIGITS IN LENGH THE PROGRAM WILL PRINT ERROR MESSAGE
             do
             {
                 creditCard = Prompt("Enter a card number:");
-                if (creditCard.Length != 16)
-                    Console.WriteLine("(Please enter a valid card number)");
-            } while (creditCard.Length !=16);
+                if (creditCard.Length < 15 || creditCard.Length > 16 )
+                    Console.WriteLine("(ERROR: Please enter a valid card number)");
+            } while (creditCard.Length < 15 || creditCard.Length > 16);
 
             //CHECKS FOR MACHING CC COMPANY
             string vendor = CCVendorCheck.ValidateVendor(creditCard);
             Kiosk.cardVendor = vendor;
 
             //IF IT'S MATCHED TO A VALID CC COMPANY IT WILL BE CLEARED AS VALID
-            if (vendor != "Invalid Card -- TRY AGAIN")
+            if (vendor != "ERROR: Invalid Card -- TRY AGAIN")
             {
                 isGood = CardCheckVal.ValidateCard(creditCard);
 
