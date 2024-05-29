@@ -42,7 +42,7 @@ namespace Kiosk_Project_1
                 Console.WriteLine("Please start by entering in the prices for the items");
                 Console.WriteLine("Press enter in a empty space when you are finishes scanning the products)");
                 Console.WriteLine("***************************************");
-
+                
                 //CALL THE METHOD TO GET TOTAL COST
                 decimal totalCost = InputValidation();
 
@@ -100,8 +100,8 @@ namespace Kiosk_Project_1
                 RecieptLog.transactionLogging();
                 transactionNum++;
             }
-        }
             #endregion       
+        }
         
         #region Input Validation
         static decimal InputValidation
@@ -177,7 +177,7 @@ namespace Kiosk_Project_1
                 string vendor = Kiosk.cardVendor.Replace(' ', '`');
                 string arguments = Kiosk.transactionNum.ToString() + "," + Kiosk.date + ",$" + Kiosk.cashAmount.ToString() + "," + vendor + ",$" + Kiosk.cardAmount.ToString() + ",$" + Kiosk.changeDue.ToString();
                 ProcessStartInfo startInfo = new ProcessStartInfo();
-                startInfo.FileName = "logging.exe";
+                startInfo.FileName = "Kiosk Project 1.exe";
                 startInfo.Arguments = arguments;
                 Process.Start(startInfo);
 
