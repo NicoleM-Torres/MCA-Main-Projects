@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Kiosk_Project_1
 {
+        #region CashPay
     internal class CashPayments ()
     {
-        #region CashPay
         public static void CashPay(decimal totalCost)
         {
             CashChange.CalculateChange(totalCost);
@@ -47,10 +47,10 @@ namespace Kiosk_Project_1
             else if (numbercheck == .01m) return 11;
             else return 12;
         }
+    }//END CLASS CASHPAYMENTS
         #endregion
 
 
-    }//END CLASS CASHPAYMENTS
     internal class CashChange
     {
         #region CalculateChange
