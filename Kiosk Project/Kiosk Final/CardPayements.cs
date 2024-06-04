@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace Kiosk_Final
     #region CardPayments
     internal class CardPayments
     {
-
+        //Enter valid response: (y/n) 
         public static decimal CardPay(decimal totalCost)
         {
             //this tells
@@ -177,6 +178,8 @@ namespace Kiosk_Final
                     if (numberCheck == totalCost)
                     {
                         Console.WriteLine("***************************************");
+                        Console.WriteLine("---------------------------------------");
+
                         if (getCashBack == true) Console.WriteLine("Your payment was APPROVED and {0:C} cashback was dispensed.", cashBack);
                         else Console.WriteLine("Your payment was APPROVED.");
                         Kiosk.cardAmount = totalCost + cashBack;
