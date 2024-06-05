@@ -74,7 +74,7 @@ namespace Kiosk
             will always return 5 units of each currency denomination.*/
             for (int index = 0; index < kiosk.CurrencyAmount.Length; index++)
             {
-                kiosk.CurrencyAmount[index] = 1;
+                kiosk.CurrencyAmount[index] = 5;
             }
 
             //Loop that will run the kiosk forever.
@@ -839,7 +839,7 @@ namespace Kiosk
         #region TransactionReset
         static void KioskTransactionReset(Bank kiosk) //Start of Transaction Reset
         {
-            /*Console.WriteLine();
+            Console.WriteLine();
 
             //Display bank funds after transaction
             Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -849,7 +849,7 @@ namespace Kiosk
             {
                 Console.WriteLine(kiosk.CurrencyName[index] + " " + kiosk.CurrencyAmount[index]);
             }
-            Console.ForegroundColor = ConsoleColor.White; */
+            Console.ForegroundColor = ConsoleColor.White; 
 
             //Reset kiosk for the next customer
             for (int i = 0; i < kiosk.UserPayment.Length; i++)
