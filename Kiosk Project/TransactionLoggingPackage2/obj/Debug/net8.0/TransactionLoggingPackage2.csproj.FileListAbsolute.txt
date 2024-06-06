@@ -1,0 +1,5 @@
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLoggingPackage2\obj\Debug\net8.0\TransactionLoggingPackage2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLoggingPackage2\obj\Debug\net8.0\TransactionLoggingPackage2.AssemblyInfoInputs.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLoggingPackage2\obj\Debug\net8.0\TransactionLoggingPackage2.AssemblyInfo.cs
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLoggingPackage2\obj\Debug\net8.0\TransactionLoggingPackage2.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLoggingPackage2\obj\Debug\net8.0\TransactionLoggingPackage2.sourcelink.json
