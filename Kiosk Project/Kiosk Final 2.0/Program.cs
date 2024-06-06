@@ -67,9 +67,20 @@ namespace Kiosk
             trans.cardAmount = 0;
             trans.changeGiven = 0;
 
-//--------------------------------------------VAULT--------------------------------------------
+            string vendor = trans.cardVendor.Replace(' ', '_');
+            string output = trans.transactionNum.ToString() + "," + trans.transactionDate + ",$" + trans.cashAmount.ToString()
+                            + "," + vendor + ",$" + trans.cardAmount + ",$" + trans.changeGiven.ToString();
+            var dateOnly = DateTime.Now.ToString("MM-dd-yyyy");
+
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            startInfo.FileName = ".exe"; // The name of the executable to run
+            startInfo.Arguments = output; // Arguments to pass to the executable
+                                          //startInfo.WindowStyle = ProcessWindowStyle.Maximized;
+            Process.Start(startInfo);// Starts the process
+
+            //--------------------------------------------VAULT--------------------------------------------
             //Filling the "Bank" with bills/coins
-            /*sets each element of the kiosk.CurrencyAmount array to 5.
+            /*sets each element of the kiosk.3CurrencyAmount array to 5.
             This means that, regardless of the change owed, the kiosk
             will always return 5 units of each currency denomination.*/
             for (int index = 0; index < kiosk.CurrencyAmount.Length; index++)
@@ -873,61 +884,20 @@ namespace Kiosk
         }//End of Transaction Reset
         #endregion
 
-        #region Logging
-        static void Logging()
+        #region Receipt
+        /*static void Logging()
         {
-            
-            //Declare Variable
 
-
-            //Putting variables into a single string
-            string vendor = trans.cardVendor.Replace(' ', '_');
-            string output = trans.transactionNum.ToString() + "," + trans.transactionDate + ",$" + trans.cashAmount.ToString()
-                            + "," + vendor + ",$" + trans.cardAmount + ",$" + trans.changeGiven.ToString();
-            var dateOnly = DateTime.Now.ToString("MM-dd-yyyy");
+           
 
             //string path = $"C:\\Users\\jbree\\OneDrive\\Desktop\\{dateOnly}.log";
             string path = @$"C:\Users\nicol\OneDrive\Escritorio{dateOnly}.log";
             //Running the logging package
-            ProcessStartInfo startInfo = new ProcessStartInfo();
-            startInfo.FileName = "notepad.exe"; // The name of the executable to run
-            startInfo.Arguments = output; // Arguments to pass to the executable
-            //startInfo.WindowStyle = ProcessWindowStyle.Maximized;
-            Process.Start(startInfo);// Starts the process
+            
 
-            if (!File.Exists(path))
-            {
-                // Create a file to write to.
+        }*/
+            #endregion
 
-                using (StreamWriter sw = File.CreateText(path))
+        } //End of Functions
 
-                {
-                    //Write text to file
-                    for (int i = 0; i < output.Length; i++) { sw.WriteLine(output[i]); }
-                    //Close the file
-                    sw.Close();
-                }
-            }
-
-            using (StreamWriter sw = File.AppendText(path))
-
-            {
-                for (int i = 0; i < output.Length; i++) { sw.WriteLine(output[i]); }
-                //Close the file
-                sw.Close();
-
-            }
-            //throw new NotImplementedException();
-            /*
-            //Replacing spaces with | for formatting
-        
-        Console.WriteLine(vendor);
-            Console.WriteLine(output);
-            */
-        }
-
-        #endregion
-
-    } //End of Functions
-
-} //End of Program
+    } //End of Program
