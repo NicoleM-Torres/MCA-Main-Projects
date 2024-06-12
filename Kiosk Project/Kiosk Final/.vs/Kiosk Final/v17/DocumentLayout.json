@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Kiosk.cs",
               "ToolTip": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final\\Kiosk.cs",
               "RelativeToolTip": "Kiosk.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T16:07:30.379Z",
               "IsPinned": true,
@@ -52,8 +52,7 @@
               "RelativeToolTip": "CardPayements.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwL8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T16:10:41.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T16:10:41.192Z"
             },
             {
               "$type": "Document",
@@ -65,8 +64,7 @@
               "RelativeToolTip": "CashPayments.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T16:10:26.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T16:10:26.888Z"
             },
             {
               "$type": "Document",
@@ -78,8 +76,7 @@
               "RelativeToolTip": "Bank.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T16:10:50.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T16:10:50.316Z"
             }
           ]
         }
