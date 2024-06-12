@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk Final 2.0", "Kiosk Final 2.0.csproj", "{7A3F20DA-8BFB-45BA-9CEC-C0F2C346F339}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiosk Final 2.0", "Kiosk Final 2.0.csproj", "{1C2D819D-6767-40E5-B661-CEDFBB6FDA2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7A3F20DA-8BFB-45BA-9CEC-C0F2C346F339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A3F20DA-8BFB-45BA-9CEC-C0F2C346F339}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A3F20DA-8BFB-45BA-9CEC-C0F2C346F339}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A3F20DA-8BFB-45BA-9CEC-C0F2C346F339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2D819D-6767-40E5-B661-CEDFBB6FDA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2D819D-6767-40E5-B661-CEDFBB6FDA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2D819D-6767-40E5-B661-CEDFBB6FDA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2D819D-6767-40E5-B661-CEDFBB6FDA2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {13921ED7-F794-49CB-96E6-7FCC49D2AC6B}
+		SolutionGuid = {29B93C2B-C4AB-4A34-A19D-127F001A6895}
 	EndGlobalSection
 EndGlobal
