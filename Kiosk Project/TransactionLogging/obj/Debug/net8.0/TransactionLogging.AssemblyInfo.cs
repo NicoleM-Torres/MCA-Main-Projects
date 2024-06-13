@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TransactionLogging")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5581baf6d6e9adff53a0cd1a71f1557b420e524")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+760eec0d5240e989e3ef3bf9dd2be0ace237de04")]
 [assembly: System.Reflection.AssemblyProductAttribute("TransactionLogging")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TransactionLogging")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
