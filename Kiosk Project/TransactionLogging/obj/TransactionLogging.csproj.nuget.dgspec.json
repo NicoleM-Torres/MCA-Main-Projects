@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\TransactionLogging.csproj": {}
+    "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\TransactionLogging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\TransactionLogging.csproj": {
+    "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\TransactionLogging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\TransactionLogging.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\TransactionLogging.csproj",
         "projectName": "TransactionLogging",
-        "projectPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\TransactionLogging.csproj",
+        "projectPath": "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\TransactionLogging.csproj",
         "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\obj\\",
+        "outputPath": "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\TransactionLogging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
