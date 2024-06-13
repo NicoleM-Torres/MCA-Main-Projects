@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\Kiosk Final 2.0.csproj": {}
+    "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\Kiosk Final 2.0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\Kiosk Final 2.0.csproj": {
+    "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\Kiosk Final 2.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\Kiosk Final 2.0.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\Kiosk Final 2.0.csproj",
         "projectName": "Kiosk Final 2.0",
-        "projectPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\Kiosk Final 2.0.csproj",
+        "projectPath": "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\Kiosk Final 2.0.csproj",
         "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\obj\\",
+        "outputPath": "C:\\Users\\nicol\\OneDrive\\Documents\\GitHub\\MCA-Main-Projects\\Kiosk Project\\Kiosk Final 2.0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
