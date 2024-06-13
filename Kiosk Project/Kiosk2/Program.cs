@@ -890,6 +890,6 @@ namespace Kiosk2
 #endregion
 
 
-    } //End of Functions
+    } //End of Class 
 
 } //End of Program
