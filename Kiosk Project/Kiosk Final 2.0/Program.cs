@@ -61,7 +61,7 @@ namespace Kiosk_Final_2._0
             trans.transactionNum = 1;
             trans.transactionDate = dtmTime.ToString("MMM-dd-yyyy,HH:mm"); //The date and time of the transaction.
             trans.cashAmount = 0;
-            trans.cardVendor = "No Vendor Given";
+            trans.cardVendor = "N/a";
             trans.cardAmount = 0;
             trans.changeGiven = 0;
 
@@ -878,7 +878,7 @@ namespace Kiosk_Final_2._0
 
             trans.transactionDate = dtmTime.ToString("MMM-dd-yyyy,HH:mm");
             trans.cashAmount = 0;
-            trans.cardVendor = "No Vendor Given";
+            trans.cardVendor = "N/a";
             trans.cardAmount = 0;
             trans.changeGiven = 0;
 
@@ -888,14 +888,10 @@ namespace Kiosk_Final_2._0
         #region Transaction Log
         static void Logging()
         {
-            //string vendor = trans.cardVendor.Replace(' ', '_');
-            string output = trans.transactionNum.ToString() + "," + trans.transactionDate + ",$" + trans.cashAmount.ToString()
-            + "," + trans.cardVendor + ",$" + trans.cardAmount + ",$" + trans.changeGiven.ToString();
-            var dateOnly = DateTime.Now.ToString("MM-dd-yyyy");
 
             ProcessStartInfo startInfo = new ProcessStartInfo();
-            startInfo.FileName = @"C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\bin\Debug\net8.0\TransactionLogging.exe"; // The name of the executable to run
-            startInfo.Arguments = $"Transaction Number:{trans.transactionNum}" + $"\tDate:{trans.transactionDate}" + $"\nCash:${trans.cashAmount}" + $"\nCard Merchant:{trans.cardVendor}" + $"\nCard pay:${trans.cardAmount}" + $"\nChange:${ trans.changeGiven}"; // Arguments to pass to the executable
+            startInfo.FileName = @"C:\Users\nicol\OneDrive\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\bin\Debug\net8.0\TransactionLogging.exe"; // The name of the executable to run
+            startInfo.Arguments = $"{trans.transactionNum} {trans.transactionDate} {trans.cashAmount} {trans.cardVendor} {trans.cardAmount} { trans.changeGiven}"; // Arguments to pass to the executable
             Process.Start(startInfo);// Starts the process
 
         }
