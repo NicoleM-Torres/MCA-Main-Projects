@@ -1,0 +1,15 @@
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\bin\Debug\net8.0\TransactionLogging.exe
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\bin\Debug\net8.0\TransactionLogging.deps.json
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\bin\Debug\net8.0\TransactionLogging.runtimeconfig.json
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\bin\Debug\net8.0\TransactionLogging.dll
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\bin\Debug\net8.0\TransactionLogging.pdb
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\TransactionLogging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\TransactionLogging.AssemblyInfoInputs.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\TransactionLogging.AssemblyInfo.cs
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\TransactionLogging.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\TransactionLogging.sourcelink.json
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\TransactionLogging.dll
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\refint\TransactionLogging.dll
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\TransactionLogging.pdb
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\TransactionLogging.genruntimeconfig.cache
+C:\Users\nicol\Documents\GitHub\MCA-Main-Projects\Kiosk Project\TransactionLogging\obj\Debug\net8.0\ref\TransactionLogging.dll
