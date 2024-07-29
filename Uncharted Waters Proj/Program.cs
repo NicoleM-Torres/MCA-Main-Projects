@@ -95,6 +95,7 @@ namespace Uncharted_Waters_Project
 
             //CONSOLE COLOR RESET
             Console.ResetColor();
+        
         }//end main
 
         //--------------------------------------------------- SATELLITE FUNCTION -----------------------------------------------------
